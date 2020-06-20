@@ -1,0 +1,13 @@
+MYSQL_USER : root 
+MYSQL_PASSWORD : root 
+MYSQL_BACKUP_COMMAND : mysqldump -u root -p rucksackdemo > %s 
+# MONGODB_BACKUP_COMMAND :
+
+# gcloud sdk commands
+# bucket listout
+gcs_bucket_listout_command : gsutil ls
+# bucket create
+gcs_bucket_create_command : gsutil mb gs://%s/
+# copy object to bucket
+# first string interpolation is the file path and second one is the name of the bucket
+gcs_bucket_upload_object_command : gsutil cp %s %s
