@@ -8,10 +8,6 @@ import (
     "strconv"
     "path"
     "os/exec"
-    // "gopkg.in/yaml.v2"
-    // "io/ioutil"
-    // "reflect"
-   // "path/filepath"
 )
 
 const (
