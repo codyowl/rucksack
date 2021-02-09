@@ -1,5 +1,5 @@
 # rucksack
-A simple automation tool built with golang to understand its ecosystem
+A simple automation tool built with golang to do all things "backup"
 
 
 ## usage 
